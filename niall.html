@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/estilos.css">
+    <title>Niall Horan | One Direction</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" ></script>
+  </head>
+  <body>
+    <nav class="nav">
+	    <img class="logo" src="assets/1d_logo_blanco.png" alt="One Direction logo">
+	    <div class="menu-toggle" id="mobile-menu">
+	        <span class="bar"></span>
+	        <span class="bar"></span>
+	        <span class="bar"></span>
+	    </div>
+
+	    <ul class="nav nav__links">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            Integrantes
+          </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="harry.html">Harry Styles</a></li>
+          <li><a class="dropdown-item" href="louis.html">Louis Tomlinson</a></li>
+          <li><a class="dropdown-item" href="niall.html">Niall Horan</a></li>
+          <li><a class="dropdown-item" href="liam.html">Liam Payne</a></li>
+          <li><a class="dropdown-item" href="zayn.html">Zayn Malik</a></li>
+        </ul>
+          </li>
+
+	        <li class="nav-item"><a href="discografia.html">Discografía</a></li>
+	        <li class="nav-item"><a href="giras.html">Giras</a></li>
+	        <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+	    </ul>
+	  </nav>
+
+    <div class="back__index">
+      <a class="back__index2" href="index.html">Volver al Inicio</a>
+    </div>
+
+  <div>
+    <div class="integrantes__titulo">NIALL HORAN</div>
+      <img class="integrantes__foto" src="assets/niall.jpeg" alt="Niall Horan">
+      <img class="integrantes__foto" src="assets/niall2.jpg" alt="Niall Horan">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/flicker.jpg" class="d-block w-100" alt="Album 'Flicker'">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/heartbreakweather.jpg" class="d-block w-100" alt="Album 'Heartbreak Weather'">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+      <div class="integrantes__info"> Niall James Horan nació el 13 de Septiembre de 1993 en Mullingar, Irlanda y es un cantante y compositor. A comienzos de 2010, participó en un concurso llamado "Academy 2" y ese mismo año es cuando audiciona en "The X Factor" y queda para One Direction. En 2016 firmó un contrato para arrancar como solista en "Capitol Records" y lanza su primera canción: "This Town". En 2017, estrenó su álbum "Flicker" que incluye también dos sencillos que son "Slow Hands" y "Too Much to Ask". Dos años después, volvió a la música con "Nice to Meet Ya" y en Febrero del 2020 con "No Judgment". Finalizando, el 13 de Marzo de ese mismo año salió "Heartbreak Weather", su segundo disco.</div>
+  </div> 
+
+    <footer>
+      <ul class="footer__titulo">ENCONTRALOS EN SUS REDES SOCIALES
+        <li class="footer__info">
+        <img class="footer__icon" src="assets/instagram_icon.png">
+        <a class="footer__link" href="https://www.instagram.com/onedirection/?hl=es-la">Instagram: @onedirection</a>
+        </li> 
+  
+        <li class="footer__info">
+        <img class="footer__icon" src="assets/twitter_icon.png">
+        <a class="footer__link" href="https://twitter.com/onedirection?lang=es">Twitter: @onedirection</a>
+        </li> 
+  
+        <li class="footer__info">
+        <img class="footer__icon" src="assets/youtube_icon.png">
+        <a class="footer__link" href="https://www.youtube.com/channel/UCb2HGwORFBo94DmRx4oLzow">Youtube: One Direction</a>
+        </li> 
+  
+        <li class="footer__info">
+        <img class="footer__icon" src="assets/spotify_icon.png">
+        <a class="footer__link" href="https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq?autoplay=true"> Spotify: One Direction</a>
+
+        <div class="copyright"> Copyright © 2022 Sofia Lopez. </div>
+
+        </li> 
+    </ul>
+    </footer>
+
+    <script>
+    	document.querySelector('.menu-toggle').addEventListener('click', (e) => {
+		    document.querySelector('.nav__links').classList.toggle('mobile-nav')
+		    document.querySelector('.menu-toggle').classList.toggle('is-active')
+		})
+    </script>
+  </body>
+</html>
